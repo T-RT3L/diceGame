@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="big_coantainer">
+      <section class="container">
+        <section class="side_player">
+          <div class="playerinfo">
+            <h1 class="turnPlayer">Player 1</h1>
+            <h2 class="score" id="player1Score">0</h2>
+          </div>
+          <div class="current" id="playerCurrent">
+            <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large">CURRENT</div>
+            <div class="value">0</div>
+          </div>
+        </section>
+        <section class="side_computer">
+          <div class="computerInfo">
+            <h1 class="turnPlayer2">Player 2</h1>
+            <h2 class="score" id="player2Score">0</h2>
+          </div>
+          <div class="current" id="computerCurrent">
+            <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large">CURRENT</div>
+            <div class="value">0</div>
+          </div>
+        </section>
+        <section class="info_container">
+          <h1 class="newGame">New Game</h1>
+          <h1 class="timer">30 Seconds</h1>
+          <img src="assets/dice-1.png" class="visualDice" id="diceImg" />
+          <div class="action">
+            <h1 class="rolldice">Roll Dice</h1>
+            <h1 class="hold">Hold</h1>
+          </div>
+        </section>
+        <section class="winnerPop_up">WINNER</section>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
